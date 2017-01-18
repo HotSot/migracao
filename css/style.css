@@ -132,6 +132,10 @@ fieldset[disabled] .btn-primary.active {
     background: #28ABE3;
 }
 
+.ocean-blue {
+    background: #3212ff;
+}
+
 .green {
     background: #72bf48;
 }
@@ -142,6 +146,10 @@ fieldset[disabled] .btn-primary.active {
 
 .light-red {
     background: #FB6648;
+}
+
+.purple {
+    background: #8c00de
 }
 
 .light-orange {
@@ -181,7 +189,7 @@ fieldset[disabled] .btn-primary.active {
 .menu-item a p {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .menu-item a i {
