@@ -206,6 +206,11 @@ fieldset[disabled] .btn-primary.active {
 	-webkit-animation-duration: 1000ms;
 }
 
+.disabled {
+    pointer-events:none; //This makes it not clickable
+    opacity:0.8;         //This grays it out to look disabled
+}
+
 @media only screen 
 and (min-width : 600px) 
 and (max-width : 991px) {
