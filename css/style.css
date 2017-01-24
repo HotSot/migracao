@@ -111,7 +111,7 @@ fieldset[disabled] .btn-primary.active {
 /**** Start Logo Section ****/
 
 #logo-section {
-    
+
 }
 
 .logo h1 {
@@ -174,16 +174,16 @@ fieldset[disabled] .btn-primary.active {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 30px;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-	
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
 }
 
 .menu-item a {
     color: #fff;
     display: block;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .menu-item a p {
@@ -200,10 +200,10 @@ fieldset[disabled] .btn-primary.active {
 .menu-item:hover a {
     text-decoration: none;
     //color: #333;
-	animation: wobble;
-	-webkit-animation: wobble;
-	animation-duration: 1000ms;
-	-webkit-animation-duration: 1000ms;
+    animation: wobble;
+    -webkit-animation: wobble;
+    animation-duration: 1000ms;
+    -webkit-animation-duration: 1000ms;
 }
 
 .disabled {
@@ -211,47 +211,47 @@ fieldset[disabled] .btn-primary.active {
     opacity:0.8;         //This grays it out to look disabled
 }
 
-@media only screen 
-and (min-width : 600px) 
+@media only screen
+and (min-width : 600px)
 and (max-width : 991px) {
-    
+
     .menu-item {
         display: inline-block;
         width: 32.8%;
     }
-    
+
     .menu-item.responsive {
         width: 49.5%;
         float: left;
         margin-right: 3px;
     }
-    
+
     .menu-item.responsive-2 {
         width: 49.5%;
         float: right;
     }
-    
+
 }
 
 
 
-@media only screen 
-and (min-width : 992px) 
+@media only screen
+and (min-width : 992px)
 and (max-width : 1199px) {
-    
+
     .menu-item {
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    
+
     .menu-item a i {
         font-size: 32px;
     }
-    
+
     .menu-item a p {
         font-size: 16px;
     }
-    
+
 }
 
 
@@ -370,46 +370,46 @@ and (max-width : 1199px) {
 
 
 .feature i {
-   font-size:3.5em;
-   color:#fff;
-    background: #FF432E;
-    width: 100px;
-    height: 100px;
-   padding:25px;
-    margin-bottom: 10px;
-   -webkit-border-radius:70%;
-   -moz-border-radius:70%;
-   -o-border-radius:70%;
-   border-radius:70%;
-   position: relative;
-	box-shadow: 0 0 0 30px transparent;
-	-webkit-transform: translate3d(2, 2, 2);
-	-moz-transform: translate3d(2, 2, 2);
-	-o-transform: translate3d(2, 2, 2);
-	transform: translate3d(2, 2, 2);
-	-webkit-transition: box-shadow .6s ease-in-out;
-	-moz-transition: box-shadow .6s ease-in-out;
-	-o-transition: box-shadow .6s ease-in-out;
-	transition: box-shadow .6s ease-in-out;
+ font-size:3.5em;
+ color:#fff;
+ background: #FF432E;
+ width: 100px;
+ height: 100px;
+ padding:25px;
+ margin-bottom: 10px;
+ -webkit-border-radius:70%;
+ -moz-border-radius:70%;
+ -o-border-radius:70%;
+ border-radius:70%;
+ position: relative;
+ box-shadow: 0 0 0 30px transparent;
+ -webkit-transform: translate3d(2, 2, 2);
+ -moz-transform: translate3d(2, 2, 2);
+ -o-transform: translate3d(2, 2, 2);
+ transform: translate3d(2, 2, 2);
+ -webkit-transition: box-shadow .6s ease-in-out;
+ -moz-transition: box-shadow .6s ease-in-out;
+ -o-transition: box-shadow .6s ease-in-out;
+ transition: box-shadow .6s ease-in-out;
 }
 .no-touch .feature:hover i,
-	.no-touch .feature:active i,
-	.no-touch .feature:focus i {
-        
-		-webkit-transition: box-shadow .4s ease-in-out;
-		-moz-transition: box-shadow .4s ease-in-out;
-		-o-transition: box-shadow .4s ease-in-out;
-		transition: box-shadow .4s ease-in-out;
-		box-shadow: 0 0 0 0 #FF432E;
+.no-touch .feature:active i,
+.no-touch .feature:focus i {
+
+  -webkit-transition: box-shadow .4s ease-in-out;
+  -moz-transition: box-shadow .4s ease-in-out;
+  -o-transition: box-shadow .4s ease-in-out;
+  transition: box-shadow .4s ease-in-out;
+  box-shadow: 0 0 0 0 #FF432E;
 }
 
 
 .feature-2 i {
     color:#FF432E;
-   font-size:3em;
-   padding:1px 10px 0 1px;
-   position: relative;
-	
+    font-size:3em;
+    padding:1px 10px 0 1px;
+    position: relative;
+
 }
 
 
@@ -502,37 +502,37 @@ and (max-width : 1199px) {
 
 .progress-bar {
     background: #FF432E;
-  float: left;
-  height: 100%;
-  font-size: 12px;
-  color: #ffffff;
-  text-align: center;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  -webkit-transition: width 0.6s ease;
-  transition: width 0.6s ease;
-  position:relative;
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: width 0.6s ease;
+    transition: width 0.6s ease;
+    position:relative;
 }
 
- .progress-bar-span { 
- opacity:1;
- position:absolute;
- top:-5px;
- background:#ACB2B8;
- padding:3px 10px;
- color:#FFF;
- border-radius: 0px;
- right:0px;
-    -webkit-transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -o-transition: all .5s ease-in-out;
-  -ms-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out; 
- }
+.progress-bar-span {
+   opacity:1;
+   position:absolute;
+   top:-5px;
+   background:#ACB2B8;
+   padding:3px 10px;
+   color:#FFF;
+   border-radius: 0px;
+   right:0px;
+   -webkit-transition: all .5s ease-in-out;
+   -moz-transition: all .5s ease-in-out;
+   -o-transition: all .5s ease-in-out;
+   -ms-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
+}
 
 .skill:hover .progress-bar-span {
   opacity:1;
-    -webkit-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
   -ms-transition: all .5s ease-in-out;
@@ -542,8 +542,8 @@ and (max-width : 1199px) {
 
 /* Custom Tab */
 
-.custom-tab .nav-tabs.nav-justified > .active > a, 
-.custom-tab .nav-tabs.nav-justified > .active > a:hover, 
+.custom-tab .nav-tabs.nav-justified > .active > a,
+.custom-tab .nav-tabs.nav-justified > .active > a:hover,
 .custom-tab .nav-tabs.nav-justified > .active > a:focus {
     border-radius: 0;
     //border-left-color: transparent;
@@ -581,14 +581,14 @@ and (max-width : 1199px) {
     color: #777;
 }
 
-@media only screen 
-and (min-width : 320px) 
+@media only screen
+and (min-width : 320px)
 and (max-width : 991px) {
-    
+
     .custom-tab {
-		margin-top: 30px;
-	}
-    
+      margin-top: 30px;
+  }
+
 }
 
 
@@ -610,14 +610,14 @@ and (max-width : 991px) {
     background: #fff;
 }
 
-@media only screen 
-and (min-width : 320px) 
+@media only screen
+and (min-width : 320px)
 and (max-width : 991px) {
-    
+
     .pricing-table {
-		margin-bottom: 30px;
-	}
-    
+      margin-bottom: 30px;
+  }
+
 }
 
 
@@ -781,6 +781,10 @@ and (max-width : 991px) {
     text-align: justify;
 }
 
+/**** Start orientacoes Section ****/
+
+
+
 
 
 /**** Start Contact Section ****/
@@ -797,15 +801,15 @@ and (max-width : 991px) {
     border-radius: 3px;
 }
 
-@media only screen 
-and (min-width : 320px) 
+@media only screen
+and (min-width : 320px)
 and (max-width : 991px) {
-    
+
     .footer-contact-info {
-		margin-bottom: 30px;
-		margin-top: 30px;
-	}
-    
+      margin-bottom: 30px;
+      margin-top: 30px;
+  }
+
 }
 
 .footer-contact-info ul {
@@ -836,11 +840,11 @@ and (max-width : 991px) {
 }
 
 @media only screen and (max-width : 360px) {
-    
+
     .footer-social li {
-		padding: 0 5px;
-	}
-    
+      padding: 0 5px;
+  }
+
 }
 
 .footer-social li a {
@@ -852,7 +856,7 @@ and (max-width : 991px) {
     -o-border-radius: 2px;
     border-radius: 2px;
     border: 1px solid #FF432E;
-    
+
 }
 
 .footer-social li i {
@@ -970,3 +974,21 @@ and (max-width : 991px) {
     padding: 20px;
     color: #fff;
 }
+
+/* always visible */
+#outer .holder {padding:1em; border:1px solid #ddd; margin:0 20px 10px 0;}
+#outer .holder p {padding:5px 0 0 0; margin:0;}
+#outer .holder p.bold {font-weight:bold;}
+#outer .holder h2 {margin:0; padding:0;}
+
+/* unclicked style div.more */
+#outer div.more i {float:right; margin-right:-10px 10px 0 0; cursor:pointer; color:#c00; font-weight:bold;}
+#outer div.more i.hide {display:none;}
+#outer div.more p {display:none;}
+#outer div.more img {display:none;}
+
+/* clicked style div.click */
+#outer div.click i.show {display:none;}
+#outer div.click i.hide {display:block;}
+#outer div.click p {display:block;}
+#outer div.click img {display:block; float:center; padding-right:10px;}
