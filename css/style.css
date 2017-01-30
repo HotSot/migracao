@@ -310,7 +310,7 @@ fieldset[disabled] .btn-primary.active {
 
 .feature,
 .feature-2 {
-    padding-bottom: 80px;
+    padding-bottom: 25px;
 }
 
 .feature {
@@ -341,19 +341,19 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .feature i {
-    font-size: 3.5em;
+    font-size: 25px;
     color: #fff;
     background: #FF432E;
-    width: 100px;
-    height: 100px;
-    padding: 25px;
-    margin-bottom: 10px;
+    width: 5px;
+    height: 5px;
+    padding: 30px;
+    margin-bottom: 2px;
     -webkit-border-radius: 70%;
     -moz-border-radius: 70%;
     -o-border-radius: 70%;
     border-radius: 70%;
     position: relative;
-    box-shadow: 0 0 0 30px transparent;
+    box-shadow: 0 0 10 10px transparent;
     -webkit-transform: translate3d(2, 2, 2);
     -moz-transform: translate3d(2, 2, 2);
     -o-transform: translate3d(2, 2, 2);
@@ -362,6 +362,7 @@ fieldset[disabled] .btn-primary.active {
     -moz-transition: box-shadow .6s ease-in-out;
     -o-transition: box-shadow .6s ease-in-out;
     transition: box-shadow .6s ease-in-out;
+    */
 }
 
 .no-touch .feature:hover i,
@@ -917,4 +918,26 @@ fieldset[disabled] .btn-primary.active {
 
 .sumario-video {
     margin-left: 30px;
+}
+
+
+/**** Start Line divisor for Media Section ****/
+
+hr.media {
+    padding: 0;
+    border: none;
+    border-top: medium double #bbb;
+    color: #bbb;
+    text-align: center;
+}
+
+hr.media:after {
+    content: "\f03d";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
 }
