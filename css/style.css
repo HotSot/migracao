@@ -941,3 +941,8 @@ hr.media:after {
     padding: 0 0.25em;
     background: white;
 }
+
+a.disabled {
+   pointer-events: none;
+   cursor: default;
+}
