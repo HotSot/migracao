@@ -946,3 +946,16 @@ a.disabled {
    pointer-events: none;
    cursor: default;
 }
+
+ /* ajuste para nao mostrar o download */
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 9px); /* Adjust as needed */
+}
